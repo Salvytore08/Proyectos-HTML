@@ -23,8 +23,14 @@ header{
     align-items: center;
 }
 
-.lineas{
-    margin-right: 5px;
+.lineas{    
+    padding: 10px;
+}
+
+.lineas:hover{
+    padding: 10px;
+    background-color:  rgba(128, 128, 128, 0.507);
+    border-radius: 20px;
 }
 
 .google{
@@ -79,24 +85,35 @@ header{
 .revisar{
     color:rgb(47, 47, 141);
     margin-right: 10px;
+    padding: 3px;
 }
 
 .revisar:hover{
     color:rgb(25, 25, 71);
     margin-right: 10px;
+    background-color: rgba(146, 185, 236, 0.527);
+    border-radius: 5px;
+    padding: 3px;
 }
 
 .mini{
     width: 30px;
     height: 30px;
     margin-right: 10px;
+    padding: 5px;
 }
 
 .mini:hover{
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.507);
     border-radius: 20px;
-    b: ;
+    padding: 5px;
+}
+
+.minis{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
 }
