@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.main {
+    height: auto;
+    border: 5px solid   rgb(64, 84, 109);
+    background-color: rgb(12, 11, 11);  
+    grid-gap: 50px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 10px;
+    justify-items: center;
+}
+
+.card {
+    min-height: 200px;
+    height: fit-content;
+    width: 200px;
+    border: 5px solid rgb(79, 155, 148);;
+    background-color: rgb(84, 91, 153);
+    padding: 5px;
+}
+
+.task {
+    width: auto;
+    height: auto;
+    padding: 5px 0px;
+    background-color: rgb(146, 70, 70);
+}

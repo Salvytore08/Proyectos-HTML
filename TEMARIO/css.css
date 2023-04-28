@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    height: 97vh;
+}
+
+.main {
+    background-color: rgb(10, 10, 10);
+    border: 1px solid rgb(153, 153, 153);
+    margin: 40px;
+    border-radius: 5px;
+}
+
+.Tema {
+    border-bottom: 1px solid rgb(61, 77, 95);
+    background-color: rgb(12, 11, 11);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Tema:hover {
+    background-color: rgb(0, 0, 0);
+    ;
+    border: 3px solid rgb(61, 77, 95);
+}
+
+.Tema:hover .temapuntos {
+    transition: 300ms;
+    opacity: 100;
+}
+
+.Title {
+    color: white;
+    text-align: left;
+    border-bottom: 2.5px solid rgb(53, 92, 139);
+    background-color: rgb(12, 11, 11);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagen {
+    width: 30px;
+    height: 30px;
+}
+
+.Fecha {
+    font-size: small;
+    font-weight: lighter;
+}
+
+.Puntos {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+.Puntos:hover {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 5px;
+    background-color: black;
+}
+
+.temapuntos {
+    height: 20px;
+    width: 20px;
+    margin: 0.2px;
+    opacity: 0;
+}
