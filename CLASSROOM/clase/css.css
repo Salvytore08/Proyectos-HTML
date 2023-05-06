@@ -1,0 +1,168 @@
+html{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 97vw;
+    height: 8vh;
+    margin-left: 0px;
+    flex-wrap: wrap;
+}
+
+.Classroom{
+    display: flex;
+    align-items: center;
+}
+
+.lineas{    
+    padding: 10px;
+}
+
+.lineas:hover{
+    padding: 10px;
+    background-color:  rgba(128, 128, 128, 0.507);
+    border-radius: 20px;
+}
+
+.google{
+    display: flex;
+    align-items: center;
+}
+
+.mini{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.mini:hover{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: rgba(128, 128, 128, 0.507);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.Clase{
+    text-decoration: none; 
+    font-family: sans-serif;
+    font-weight: 500;
+    color: black;
+    font-weight: 530;
+    font-size: 20px;
+}
+
+.Clase:hover{
+    text-decoration: underline; 
+    font-family: sans-serif;
+    font-weight: 500;
+    color: black;
+    font-weight: 530;
+    font-size: 20px;
+}
+
+.páginas{
+    padding: 20px;
+}
+
+.enlace{
+    text-decoration: none; 
+    font-family: sans-serif;
+    color: rgb(61, 61, 61);
+    padding: 24px;
+    padding-bottom: 18px;
+}
+
+.enlace:hover{
+    text-decoration: none; 
+    font-family: sans-serif;
+    color: black;
+    padding: 24px;
+    padding-bottom: 18px;
+    background-color: rgba(169, 204, 227, 0.11);
+}
+
+.enlace_actual{ 
+    text-decoration: none; 
+    font-family: sans-serif;
+    color: black;
+    padding: 24px;
+    padding-bottom: 14px;
+    background-color: rgba(127, 179, 213, 0.137);
+    border-bottom: 4px solid grey;
+}
+
+.cuerpo{
+    display: grid;
+    justify-items: center;
+    margin-top: 27px;
+}
+
+.banner{
+    display: grid;
+    align-items: end;
+    width: 76vw;
+    height: 37vh;
+    background-color: rgba(25, 35, 129, 0.692);
+    border-radius: 5px;
+}
+
+.nombre{
+    margin:20px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 550;
+}
+
+.Próximas_entregas{
+    display: grid;
+    background-color: white ;
+    width: 15vw;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px;
+    font-family: sans-serif;
+    justify-items: end;
+}
+
+.grande{
+    font-size: medium;
+    color: rgb(49, 49, 49);
+    font-weight: 545;
+}
+
+.boton{
+    text-decoration: none;
+    font-size: medium;
+    color: rgb(49, 49, 49);
+    font-weight: 545;
+    padding: 10px;
+}
+
+.boton:hover{
+    text-decoration: none;
+    font-size: medium;
+    color: rgb(49, 49, 49);
+    font-weight: 545;
+    background-color: rgba(116, 116, 116, 0.082);
+    padding: 10px;  
+}
+
+.pequeño{
+    font-size: small;
+    color: grey;
+}
+
+.cosas{
+    display: flex;
+}

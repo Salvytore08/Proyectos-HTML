@@ -3,8 +3,9 @@ html{
 }
 
 .clases{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    grid-gap: 20px;
+    flex-wrap: wrap;
 }
 
 header{
@@ -16,6 +17,8 @@ header{
     padding-right: 20px;
     padding-left: 20px;
     width: 97vw;
+    height: 6.7vh;
+    margin-left: 0px;
 }
 
 .Classroom{
@@ -48,15 +51,25 @@ header{
     width: 300px;
     height: 290px;
     border: 1px solid rgb(212, 212, 212);
+    border-radius: 10px;
+    display: grid;
+    align-content: space-between;
+    margin-bottom: 30px;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+.clase:hover{
+    width: 300px;
+    height: 290px;
+    border: 2px solid rgb(212, 212, 212);
     border-radius: 10px;    
     display:grid;
     align-content: space-between;
-    margin-right: 30px;
     margin-bottom: 30px;
     margin-left: 10px;
     margin-top: 20px;
 }
-
 
 .encabezado{
     color: white;
@@ -72,6 +85,8 @@ header{
 .Nombre{
     display: flex;
     justify-content: space-between;
+    margin: 12px;
+    align-items: center;
 }
 
 .cosas_classroom{
@@ -80,6 +95,8 @@ header{
     height: 50px;
     display: flex;
     justify-content: flex-end;
+    margin: 10px;
+    align-items: center;
 }
 
 .revisar{
@@ -91,21 +108,21 @@ header{
 .revisar:hover{
     color:rgb(25, 25, 71);
     margin-right: 10px;
-    background-color: rgba(146, 185, 236, 0.527);
+    background-color: rgba(146, 185, 236, 0.192);
     border-radius: 5px;
     padding: 3px;
 }
 
 .mini{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-right: 10px;
     padding: 5px;
 }
 
 .mini:hover{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-right: 10px;
     background-color: rgba(128, 128, 128, 0.507);
     border-radius: 20px;
@@ -116,4 +133,38 @@ header{
     width: 15px;
     height: 15px;
     margin-right: 10px;
+}
+
+a{
+    text-decoration: none; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.Nombreclase{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Nombreclase:hover{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.profe{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 12px;
+}
+
+.profe:hover{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 12px;
+    text-decoration: underline;
 }
